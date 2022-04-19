@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  /* text-align: center;
+  height: 230px;
+  width: 690px; */
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+.action-button {
+  display: inline-block;
+}
