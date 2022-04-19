@@ -1,7 +1,6 @@
 body {
   background-color: #b9540c;
-  overflow: hidden;
-  text-align: cente;
+  //overflow: hidden;
 }
 .emojiAsesor {
   background-image: url("https://github.githubassets.com/images/icons/emoji/unicode/1f393.png");
@@ -33,13 +32,15 @@ body {
   background-image: url("../img/daenerys.jpeg");
 }
 .photoBronn {
-  background-image: url("../img/bronn.jpeg");
+  background-image: url("../img/bronn.png");
 }
 .characters-list {
   flex-wrap: nowrap;
   max-width: 100%;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   align-items: center;
+  width: 810px;
+  height: 363px;
 }
 .character {
   width: 20%;
@@ -60,6 +61,7 @@ body {
   background-color: #331c0e;
   color: #fff;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  width: 160px;
 }
 .character__overlay {
   border-radius: 0.25rem;
@@ -126,8 +128,8 @@ body {
 .emoji {
   font-style: normal;
   position: absolute;
-  right: 5px;
-  top: 5px;
-  width: 50px;
-  height: 50px;
+  right: 0px;
+  top: -5px;
+  width: 40%;
+  height: 70px;
 }
