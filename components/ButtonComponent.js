@@ -13,7 +13,6 @@ class ButtonComponent {
     parentElement.append(this.element);
 
     this.element.addEventListener("click", () => {
-      debugger;
       showCards(createLista());
     });
   }
